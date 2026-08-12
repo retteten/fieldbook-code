@@ -15,12 +15,21 @@ Verfahren (Hausstandard R3′, 12.08.2026): je Pixel die **Theil-Sen-Steigung**
 durch die Peak-Season-Composites der Jahre — der Median aller paarweisen
 Steigungen, robust gegen ein einzelnes Ausreißerjahr (Dürresommer!). Dazu je
 Pixel der **Mann-Kendall-Test** (verteilungsfrei, Standardtest für
-Umweltzeitreihen). Ehrlich gesagt werden muss: Bei n = 6 Jahren hat der Test
-wenig Power — zweiseitig p < 0,05 verlangt |S| ≥ 13 von maximal 15, also fast
-perfekte Monotonie. Schwache echte Trends bleiben unerkannt; die Belegkraft
-trägt deshalb weiterhin die 4-Zellen-Clusterregel mit, und genau das gehört in
-den Methodenabschnitt der Folge. Die Kleinste-Quadrate-Gerade der Läufe vor
-08/2026 ist damit die benannte historische Fassung.
+Umweltzeitreihen). Quellen: Sen 1968, Mann 1945, Kendall 1975; praxisnah
+Helsel u. a. 2020 (USGS TM 4-A3, Kap. 12).
+
+Startjahr-Regel (seit 12.08.2026 abends): Die Reihe beginnt 2018 — volle
+Zwillingskonstellation (5-Tage-Wiederkehr), Collection-1 homogen reprozessiert.
+Ehrlich gesagt werden muss: Auch bei n = 8 bleibt der Test streng — zweiseitig
+p < 0,05 verlangt |S| ≥ 18 von maximal 28 (bei n = 6 wären es 13 von 15, fast
+perfekte Monotonie; genau deshalb wurde der unbegründete Start 2020 der
+Erstrechnung aufgegeben). Schwache echte Trends bleiben unerkannt; die
+Belegkraft trägt deshalb weiterhin die 4-Zellen-Clusterregel mit, und genau
+das gehört in den Methodenabschnitt der Folge. Die Kleinste-Quadrate-Gerade
+der Läufe vor 08/2026 ist die benannte historische Fassung. Wichtig: Die
+Trendreihe ist von der Anomalie-Klimatologie (baseline_jahre in aois.json,
+2020–2025) bewusst entkoppelt — die Klimatologie soll „junges Normal" sein,
+der Trend möglichst lang.
 
 Gerechnet wird auf dem metrischen Analysegitter (R1: UTM, Zellfläche exakt
 400 m²) aus dem Cache des NDVI-Batches — kein neuer Satellitenabruf.
@@ -28,11 +37,13 @@ Ausgegeben werden Verteilung, Fundstellen und — das ist der eigentliche
 Zweck — die Überschneidung mit den Fundstellen der Anomaliekarte (steht seit
 V3 auch in der JSON, nicht mehr nur auf stdout).
 
-Aufruf (venv des NDVI-Batches) — echter Publikationslauf „Vier Pixel":
+Aufruf (venv des NDVI-Batches) — echter Publikationslauf „Vier Pixel"
+(verlängerte Reihe, 12.08.2026 abends):
     python scripts/ortstermin/ndvi_trend.py --aoi oldenburg \\
         --bbox 8.155,53.105,8.285,53.185 \\
-        --vergleich docs/daten/fundstellen-oldenburg-2026-W32.json \\
-        --json docs/daten/trend-oldenburg-2020-2025.json
+        --jahre 2018,2019,2020,2021,2022,2023,2024,2025 \\
+        --vergleich docs/daten/fundstellen-oldenburg-2026-W33.json \\
+        --json docs/daten/trend-oldenburg-2018-2025.json
 Echter Publikationslauf Harz (09.08.2026):
     python scripts/ortstermin/ndvi_trend.py --aoi harz \\
         --maske-arm "dunkle Nachbarschaft (Kahlflaeche/Ort)" \\
@@ -168,7 +179,9 @@ def main() -> None:
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--aoi", default="oldenburg")
     p.add_argument("--bbox", help="W,S,O,N (lon/lat — wird ins Raster-CRS projiziert)")
-    p.add_argument("--jahre", default="2020,2021,2022,2023,2024,2025")
+    p.add_argument("--jahre", default="2018,2019,2020,2021,2022,2023,2024,2025",
+                   help="Startjahr-Regel 2018 (volle Zwillingskonstellation); "
+                        "bewusst länger als die Anomalie-Klimatologie")
     p.add_argument("--schwelle", type=float, default=-0.02,
                    help="NDVI-Verlust je Jahr, ab dem eine Zelle als fallend gilt")
     p.add_argument("--min-zellen", type=int, default=4)

@@ -9,7 +9,8 @@
     "end_monat": 9,
     "baseline_fenster_tage": 42,
     "_kommentar_fenster": "Fensterlaenge der tagesgenau gematchten Klimatologie (Anomalie-Bezug). Bewusst laenger als die 14 Tage des aktuellen Composites: im Mittelgebirge lieferte ein 14-Tage-Fenster einzelne Baseline-Jahre mit nur einer Aufnahme (dunstanfaellig, systematisch zu niedrig). 42 Tage bleiben phaenologisch vergleichbar und liefern mehrere wolkenfreie Ueberflüge je Jahr.",
-    "baseline_jahre": [2020, 2021, 2022, 2023, 2024, 2025]
+    "baseline_jahre": [2020, 2021, 2022, 2023, 2024, 2025],
+    "_kommentar_baseline_jahre": "NUR die Anomalie-Klimatologie (junges Normal des Wochenvergleichs). Bewusst ENTKOPPELT von der Trendreihe: Trends (ndvi_trend.py) rechnen seit 12.08.2026 ab 2018 (Startjahr-Regel, volle Zwillingskonstellation) — diese Liste dafuer NICHT verlaengern, sonst verschiebt sich das Normal jeder Wochenkarte."
   },
   "klassifikation": {
     "_kommentar": "Schwellen fuer Anomalie (NDVI-Differenz zur Baseline) und Persistenz (Monats-Composites ueber/unter Baseline).",
