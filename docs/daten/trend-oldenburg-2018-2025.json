@@ -1,0 +1,247 @@
+{
+  "aoi": "oldenburg",
+  "jahre": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "gitter_m": 20.0,
+  "crs": "EPSG:32632",
+  "verfahren": "theil_sen_mann_kendall",
+  "alpha": 0.05,
+  "fenster": {
+    "iso_wochen": [
+      23,
+      35
+    ],
+    "je_jahr": {
+      "2018": [
+        "2018-06-04",
+        "2018-09-02"
+      ],
+      "2019": [
+        "2019-06-03",
+        "2019-09-01"
+      ],
+      "2020": [
+        "2020-06-01",
+        "2020-08-30"
+      ],
+      "2021": [
+        "2021-06-07",
+        "2021-09-05"
+      ],
+      "2022": [
+        "2022-06-06",
+        "2022-09-04"
+      ],
+      "2023": [
+        "2023-06-05",
+        "2023-09-03"
+      ],
+      "2024": [
+        "2024-06-03",
+        "2024-09-01"
+      ],
+      "2025": [
+        "2025-06-02",
+        "2025-08-31"
+      ]
+    }
+  },
+  "beobachtungen": {
+    "min": 2,
+    "median": 11.0,
+    "max": 22
+  },
+  "schwellen": {
+    "fallend_je_jahr": -0.02,
+    "min_zellen": 4,
+    "war_gruen": 0.55,
+    "stadtmaske": {
+      "radius_m": 250.0,
+      "schwelle": 0.55
+    }
+  },
+  "kontext": [
+    {
+      "gebiet": "Ausschnitt gesamt",
+      "flaeche_km2": 79.2,
+      "median_je_jahr": 0.0057,
+      "anteil_fallend": 0.0238,
+      "anteil_steigend": 0.0866,
+      "anteil_mk_signifikant": 0.1981
+    },
+    {
+      "gebiet": "bebaute Nachbarschaft",
+      "flaeche_km2": 29.42,
+      "median_je_jahr": 0.0061,
+      "anteil_fallend": 0.0309,
+      "anteil_steigend": 0.0781,
+      "anteil_mk_signifikant": 0.2595
+    },
+    {
+      "gebiet": "offene Landschaft",
+      "flaeche_km2": 49.78,
+      "median_je_jahr": 0.0054,
+      "anteil_fallend": 0.0196,
+      "anteil_steigend": 0.0916,
+      "anteil_mk_signifikant": 0.1618
+    }
+  ],
+  "vergroeberung": [
+    {
+      "gitter_m": 20,
+      "zellen": 198000,
+      "anteil_fallend": 0.0238,
+      "cluster": 246
+    },
+    {
+      "gitter_m": 60,
+      "zellen": 22348,
+      "anteil_fallend": 0.0141,
+      "cluster": 21
+    },
+    {
+      "gitter_m": 200,
+      "zellen": 2070,
+      "anteil_fallend": 0.0082,
+      "cluster": 0
+    }
+  ],
+  "ueberschneidung_anomalie": {
+    "treffer": 2,
+    "von": 20,
+    "quelle": "fundstellen-oldenburg-2026-W33.json"
+  },
+  "fundstellen_gesamt": 11,
+  "fundstellen": [
+    {
+      "lat": 53.10609,
+      "lon": 8.25735,
+      "pixel": 25,
+      "flaeche_m2": 10000,
+      "steigung_je_jahr": -0.0238,
+      "mk_s_median": -14.0,
+      "mk_p_median": 0.1078,
+      "ndvi_start": 0.851,
+      "ndvi_ende": 0.696
+    },
+    {
+      "lat": 53.14424,
+      "lon": 8.25646,
+      "pixel": 18,
+      "flaeche_m2": 7200,
+      "steigung_je_jahr": -0.0595,
+      "mk_s_median": -10.0,
+      "mk_p_median": 0.2655,
+      "ndvi_start": 0.638,
+      "ndvi_ende": 0.223
+    },
+    {
+      "lat": 53.16647,
+      "lon": 8.23447,
+      "pixel": 9,
+      "flaeche_m2": 3600,
+      "steigung_je_jahr": -0.0338,
+      "mk_s_median": -12.0,
+      "mk_p_median": 0.1735,
+      "ndvi_start": 0.75,
+      "ndvi_ende": 0.483
+    },
+    {
+      "lat": 53.16756,
+      "lon": 8.23399,
+      "pixel": 8,
+      "flaeche_m2": 3200,
+      "steigung_je_jahr": -0.0394,
+      "mk_s_median": -9.0,
+      "mk_p_median": 0.326,
+      "ndvi_start": 0.638,
+      "ndvi_ende": 0.266
+    },
+    {
+      "lat": 53.17454,
+      "lon": 8.17194,
+      "pixel": 6,
+      "flaeche_m2": 2400,
+      "steigung_je_jahr": -0.0338,
+      "mk_s_median": -13.0,
+      "mk_p_median": 0.1407,
+      "ndvi_start": 0.693,
+      "ndvi_ende": 0.238
+    },
+    {
+      "lat": 53.16937,
+      "lon": 8.20131,
+      "pixel": 5,
+      "flaeche_m2": 2000,
+      "steigung_je_jahr": -0.033,
+      "mk_s_median": -14.0,
+      "mk_p_median": 0.1078,
+      "ndvi_start": 0.824,
+      "ndvi_ende": 0.659
+    },
+    {
+      "lat": 53.13786,
+      "lon": 8.25451,
+      "pixel": 5,
+      "flaeche_m2": 2000,
+      "steigung_je_jahr": -0.0221,
+      "mk_s_median": -6.0,
+      "mk_p_median": 0.5362,
+      "ndvi_start": 0.804,
+      "ndvi_ende": 0.551
+    },
+    {
+      "lat": 53.16856,
+      "lon": 8.20028,
+      "pixel": 4,
+      "flaeche_m2": 1600,
+      "steigung_je_jahr": -0.0368,
+      "mk_s_median": -12.0,
+      "mk_p_median": 0.1735,
+      "ndvi_start": 0.794,
+      "ndvi_ende": 0.586
+    },
+    {
+      "lat": 53.1666,
+      "lon": 8.19605,
+      "pixel": 4,
+      "flaeche_m2": 1600,
+      "steigung_je_jahr": -0.0254,
+      "mk_s_median": -12.0,
+      "mk_p_median": 0.1735,
+      "ndvi_start": 0.79,
+      "ndvi_ende": 0.681
+    },
+    {
+      "lat": 53.16421,
+      "lon": 8.20903,
+      "pixel": 4,
+      "flaeche_m2": 1600,
+      "steigung_je_jahr": -0.0275,
+      "mk_s_median": -12.0,
+      "mk_p_median": 0.1735,
+      "ndvi_start": 0.783,
+      "ndvi_ende": 0.652
+    },
+    {
+      "lat": 53.10774,
+      "lon": 8.17952,
+      "pixel": 4,
+      "flaeche_m2": 1600,
+      "steigung_je_jahr": -0.0262,
+      "mk_s_median": -18.0,
+      "mk_p_median": 0.0354,
+      "ndvi_start": 0.771,
+      "ndvi_ende": 0.617
+    }
+  ],
+  "aufruf": "python scripts/ortstermin/ndvi_trend.py --aoi oldenburg --bbox 8.155,53.105,8.285,53.185 --jahre 2018,2019,2020,2021,2022,2023,2024,2025 --vergleich docs\\daten\\fundstellen-oldenburg-2026-W33.json --json docs\\daten\\trend-oldenburg-2018-2025.json"
+}

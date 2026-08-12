@@ -1,0 +1,410 @@
+{
+  "aoi": "oldenburg",
+  "stand": "2026-08-12T16:36:19Z",
+  "zeitfenster": {
+    "von": "2026-07-29",
+    "bis": "2026-08-12"
+  },
+  "referenzjahr": 2021,
+  "gitter_m": 20.0,
+  "crs": "EPSG:32632",
+  "beobachtungen": {
+    "min": 1,
+    "median": 4.0,
+    "max": 7
+  },
+  "schwellen": {
+    "anomalie": -0.1,
+    "mehrjahres": -0.15,
+    "war_gruen": 0.55,
+    "min_flaeche_px": 4,
+    "max_flaeche_px": null,
+    "stadtmaske": {
+      "radius_px": 12,
+      "radius_m": 250.0,
+      "schwelle": 0.55
+    }
+  },
+  "kontext": [
+    {
+      "gebiet": "gesamte AOI „oldenburg“",
+      "flaeche_km2": 478.08,
+      "anomalie_median": -0.0098,
+      "anteil_verlust": 0.2009,
+      "anteil_zugewinn": 0.0628,
+      "anteil_persistenter_verlust": 0.047,
+      "mehrjahres_median": -0.0104
+    },
+    {
+      "gebiet": "Ausschnitt (Stadtgebiet)",
+      "flaeche_km2": 79.2,
+      "anomalie_median": -0.0035,
+      "anteil_verlust": 0.1011,
+      "anteil_zugewinn": 0.0317,
+      "anteil_persistenter_verlust": 0.0239,
+      "mehrjahres_median": -0.0135
+    },
+    {
+      "gebiet": "bebaute Nachbarschaft",
+      "flaeche_km2": 29.42,
+      "anomalie_median": -0.0014,
+      "anteil_verlust": 0.0573,
+      "anteil_zugewinn": 0.0424,
+      "anteil_persistenter_verlust": 0.0243,
+      "mehrjahres_median": -0.0094
+    },
+    {
+      "gebiet": "offene Landschaft",
+      "flaeche_km2": 49.78,
+      "anomalie_median": -0.0047,
+      "anteil_verlust": 0.127,
+      "anteil_zugewinn": 0.0254,
+      "anteil_persistenter_verlust": 0.0237,
+      "mehrjahres_median": -0.016
+    }
+  ],
+  "fundstellen_gesamt": 89,
+  "fundstellen": [
+    {
+      "lat": 53.17695,
+      "lon": 8.17777,
+      "pixel": 159,
+      "flaeche_m2": 63600,
+      "ndvi_referenz": 0.719,
+      "ndvi_jetzt": 0.465,
+      "anomalie": -0.22,
+      "mehrjahres": -0.254,
+      "persistent": 0.0,
+      "bbox": [
+        8.17406,
+        53.17503,
+        8.1819,
+        53.1785
+      ]
+    },
+    {
+      "lat": 53.17504,
+      "lon": 8.17499,
+      "pixel": 87,
+      "flaeche_m2": 34800,
+      "ndvi_referenz": 0.745,
+      "ndvi_jetzt": 0.47,
+      "anomalie": -0.201,
+      "mehrjahres": -0.274,
+      "persistent": 0.16,
+      "bbox": [
+        8.17111,
+        53.17411,
+        8.17803,
+        53.17632
+      ]
+    },
+    {
+      "lat": 53.14421,
+      "lon": 8.25656,
+      "pixel": 19,
+      "flaeche_m2": 7600,
+      "ndvi_referenz": 0.789,
+      "ndvi_jetzt": 0.155,
+      "anomalie": -0.475,
+      "mehrjahres": -0.634,
+      "persistent": 1.0,
+      "bbox": [
+        8.25574,
+        53.14357,
+        8.25725,
+        53.14483
+      ]
+    },
+    {
+      "lat": 53.11174,
+      "lon": 8.2629,
+      "pixel": 39,
+      "flaeche_m2": 15600,
+      "ndvi_referenz": 0.653,
+      "ndvi_jetzt": 0.347,
+      "anomalie": -0.495,
+      "mehrjahres": -0.306,
+      "persistent": 0.62,
+      "bbox": [
+        8.26137,
+        53.11052,
+        8.265,
+        53.11288
+      ]
+    },
+    {
+      "lat": 53.167,
+      "lon": 8.23431,
+      "pixel": 21,
+      "flaeche_m2": 8400,
+      "ndvi_referenz": 0.787,
+      "ndvi_jetzt": 0.379,
+      "anomalie": -0.256,
+      "mehrjahres": -0.408,
+      "persistent": 1.0,
+      "bbox": [
+        8.2332,
+        53.16626,
+        8.23532,
+        53.16789
+      ]
+    },
+    {
+      "lat": 53.15923,
+      "lon": 8.17753,
+      "pixel": 28,
+      "flaeche_m2": 11200,
+      "ndvi_referenz": 0.809,
+      "ndvi_jetzt": 0.56,
+      "anomalie": -0.253,
+      "mehrjahres": -0.25,
+      "persistent": 0.0,
+      "bbox": [
+        8.1765,
+        53.15833,
+        8.17833,
+        53.16032
+      ]
+    },
+    {
+      "lat": 53.11947,
+      "lon": 8.25929,
+      "pixel": 12,
+      "flaeche_m2": 4800,
+      "ndvi_referenz": 0.784,
+      "ndvi_jetzt": 0.225,
+      "anomalie": -0.42,
+      "mehrjahres": -0.559,
+      "persistent": 1.0,
+      "bbox": [
+        8.25856,
+        53.11913,
+        8.26007,
+        53.11986
+      ]
+    },
+    {
+      "lat": 53.15245,
+      "lon": 8.21048,
+      "pixel": 15,
+      "flaeche_m2": 6000,
+      "ndvi_referenz": 0.764,
+      "ndvi_jetzt": 0.404,
+      "anomalie": -0.349,
+      "mehrjahres": -0.36,
+      "persistent": 0.67,
+      "bbox": [
+        8.20954,
+        53.15208,
+        8.21135,
+        53.15281
+      ]
+    },
+    {
+      "lat": 53.13815,
+      "lon": 8.24024,
+      "pixel": 19,
+      "flaeche_m2": 7600,
+      "ndvi_referenz": 0.773,
+      "ndvi_jetzt": 0.494,
+      "anomalie": -0.225,
+      "mehrjahres": -0.278,
+      "persistent": 0.05,
+      "bbox": [
+        8.23911,
+        53.13789,
+        8.24121,
+        53.13844
+      ]
+    },
+    {
+      "lat": 53.12038,
+      "lon": 8.19422,
+      "pixel": 12,
+      "flaeche_m2": 4800,
+      "ndvi_referenz": 0.748,
+      "ndvi_jetzt": 0.313,
+      "anomalie": -0.421,
+      "mehrjahres": -0.435,
+      "persistent": 1.0,
+      "bbox": [
+        8.19369,
+        53.11961,
+        8.19461,
+        53.12105
+      ]
+    },
+    {
+      "lat": 53.17734,
+      "lon": 8.18367,
+      "pixel": 22,
+      "flaeche_m2": 8800,
+      "ndvi_referenz": 0.74,
+      "ndvi_jetzt": 0.542,
+      "anomalie": -0.133,
+      "mehrjahres": -0.198,
+      "persistent": 0.05,
+      "bbox": [
+        8.18245,
+        53.17689,
+        8.18516,
+        53.1778
+      ]
+    },
+    {
+      "lat": 53.14397,
+      "lon": 8.24223,
+      "pixel": 14,
+      "flaeche_m2": 5600,
+      "ndvi_referenz": 0.714,
+      "ndvi_jetzt": 0.412,
+      "anomalie": -0.284,
+      "mehrjahres": -0.302,
+      "persistent": 0.0,
+      "bbox": [
+        8.24079,
+        53.14347,
+        8.2429,
+        53.14438
+      ]
+    },
+    {
+      "lat": 53.14804,
+      "lon": 8.25867,
+      "pixel": 20,
+      "flaeche_m2": 8000,
+      "ndvi_referenz": 0.783,
+      "ndvi_jetzt": 0.578,
+      "anomalie": -0.236,
+      "mehrjahres": -0.205,
+      "persistent": 0.0,
+      "bbox": [
+        8.25656,
+        53.14699,
+        8.26138,
+        53.14935
+      ]
+    },
+    {
+      "lat": 53.14311,
+      "lon": 8.23988,
+      "pixel": 11,
+      "flaeche_m2": 4400,
+      "ndvi_referenz": 0.754,
+      "ndvi_jetzt": 0.389,
+      "anomalie": -0.307,
+      "mehrjahres": -0.365,
+      "persistent": 0.0,
+      "bbox": [
+        8.23902,
+        53.14274,
+        8.24052,
+        53.14347
+      ]
+    },
+    {
+      "lat": 53.15474,
+      "lon": 8.17623,
+      "pixel": 13,
+      "flaeche_m2": 5200,
+      "ndvi_referenz": 0.79,
+      "ndvi_jetzt": 0.489,
+      "anomalie": -0.247,
+      "mehrjahres": -0.301,
+      "persistent": 0.85,
+      "bbox": [
+        8.17569,
+        53.15401,
+        8.17662,
+        53.15545
+      ]
+    },
+    {
+      "lat": 53.17351,
+      "lon": 8.17195,
+      "pixel": 8,
+      "flaeche_m2": 3200,
+      "ndvi_referenz": 0.749,
+      "ndvi_jetzt": 0.301,
+      "anomalie": -0.262,
+      "mehrjahres": -0.448,
+      "persistent": 1.0,
+      "bbox": [
+        8.17145,
+        53.17321,
+        8.17236,
+        53.17376
+      ]
+    },
+    {
+      "lat": 53.14938,
+      "lon": 8.26508,
+      "pixel": 8,
+      "flaeche_m2": 3200,
+      "ndvi_referenz": 0.607,
+      "ndvi_jetzt": 0.16,
+      "anomalie": -0.412,
+      "mehrjahres": -0.447,
+      "persistent": 0.25,
+      "bbox": [
+        8.26463,
+        53.14902,
+        8.26553,
+        53.14974
+      ]
+    },
+    {
+      "lat": 53.11913,
+      "lon": 8.18868,
+      "pixel": 8,
+      "flaeche_m2": 3200,
+      "ndvi_referenz": 0.708,
+      "ndvi_jetzt": 0.268,
+      "anomalie": -0.409,
+      "mehrjahres": -0.44,
+      "persistent": 1.0,
+      "bbox": [
+        8.18804,
+        53.11885,
+        8.18954,
+        53.1194
+      ]
+    },
+    {
+      "lat": 53.12598,
+      "lon": 8.16906,
+      "pixel": 7,
+      "flaeche_m2": 2800,
+      "ndvi_referenz": 0.773,
+      "ndvi_jetzt": 0.303,
+      "anomalie": -0.369,
+      "mehrjahres": -0.471,
+      "persistent": 0.86,
+      "bbox": [
+        8.16848,
+        53.12555,
+        8.16969,
+        53.12628
+      ]
+    },
+    {
+      "lat": 53.1358,
+      "lon": 8.24304,
+      "pixel": 12,
+      "flaeche_m2": 4800,
+      "ndvi_referenz": 0.874,
+      "ndvi_jetzt": 0.607,
+      "anomalie": -0.24,
+      "mehrjahres": -0.267,
+      "persistent": 0.08,
+      "bbox": [
+        8.24243,
+        53.13539,
+        8.24364,
+        53.1363
+      ]
+    }
+  ],
+  "aufruf": "python scripts/ortstermin/ndvi_fundstellen.py --aoi oldenburg --referenzjahr 2021 --bbox 8.155,53.105,8.285,53.185 --json docs/daten/fundstellen-oldenburg-2026-W33.json"
+}

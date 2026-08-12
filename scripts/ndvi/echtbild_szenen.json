@@ -1,0 +1,182 @@
+[
+ {
+  "szene": "de",
+  "w": 1280,
+  "h": 720,
+  "bbox3857": [
+   -170100.0,
+   5929565.0,
+   2496677.0,
+   7429626.0
+  ],
+  "datei": "layers/de/s2.jpg"
+ },
+ {
+  "szene": "hamburg",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1106525.1,
+   7079451.4,
+   1116525.1,
+   7089451.4
+  ],
+  "datei": "layers/hamburg/s2.jpg"
+ },
+ {
+  "szene": "alpen",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1422021.0,
+   6023264.0,
+   1450021.0,
+   6051264.0
+  ],
+  "datei": "layers/alpen/s2.jpg"
+ },
+ {
+  "szene": "oldenburg",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   913545.1,
+   7008685.8,
+   915345.1,
+   7010485.8
+  ],
+  "datei": "layers/oldenburg/s2.jpg"
+ },
+ {
+  "szene": "koeln",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   773894.4,
+   6610216.9,
+   775294.4,
+   6611616.9
+  ],
+  "datei": "layers/koeln/s2.jpg"
+ },
+ {
+  "szene": "muenchen",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1287678.8,
+   6128843.8,
+   1289478.8,
+   6130643.8
+  ],
+  "datei": "layers/muenchen/s2.jpg"
+ },
+ {
+  "szene": "dresden",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1528440.6,
+   6629313.7,
+   1530240.6,
+   6631113.7
+  ],
+  "datei": "layers/dresden/s2.jpg"
+ },
+ {
+  "szene": "berlin",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1490626.5,
+   6893199.8,
+   1493626.5,
+   6896199.8
+  ],
+  "datei": "layers/berlin/s2.jpg"
+ },
+ {
+  "szene": "muensterland",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   809019.1,
+   6794010.0,
+   814019.1,
+   6799010.0
+  ],
+  "datei": "layers/muensterland/s2.jpg"
+ },
+ {
+  "szene": "oldenburgerland",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   894121.9,
+   6999516.7,
+   898121.9,
+   7003516.7
+  ],
+  "datei": "layers/oldenburgerland/s2.jpg"
+ },
+ {
+  "szene": "heidelberg",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   969499.4,
+   6344205.2,
+   970799.4,
+   6345505.2
+  ],
+  "datei": "layers/heidelberg/s2.jpg"
+ },
+ {
+  "szene": "luebeck",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1188915.7,
+   7144024.6,
+   1190315.7,
+   7145424.6
+  ],
+  "datei": "layers/luebeck/s2.jpg"
+ },
+ {
+  "szene": "magdeburg",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1294613.6,
+   6822330.7,
+   1296013.6,
+   6823730.7
+  ],
+  "datei": "layers/magdeburg/s2.jpg"
+ },
+ {
+  "szene": "stralsund",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1456516.5,
+   7229345.3,
+   1457716.5,
+   7230545.3
+  ],
+  "datei": "layers/stralsund/s2.jpg"
+ },
+ {
+  "szene": "thueringen",
+  "w": 1000,
+  "h": 1000,
+  "bbox3857": [
+   1228480.4,
+   6653371.6,
+   1231680.4,
+   6656571.6
+  ],
+  "datei": "layers/thueringen/s2.jpg"
+ }
+]

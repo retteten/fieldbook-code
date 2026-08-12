@@ -1,0 +1,8 @@
+# Zugangsdaten — niemals einchecken
+.env
+
+# Lokale Artefakte
+__pycache__/
+*.pyc
+.venv/
+scripts/ndvi/cache/

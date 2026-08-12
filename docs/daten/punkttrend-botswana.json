@@ -1,0 +1,59 @@
+{
+  "erzeugt": "2026-08-12T16:16:27Z",
+  "aufruf": "python scripts/ndvi/punkttrend.py --lat -23.973037 --lon 25.854650 --name botswana",
+  "punkt": {
+    "lat": -23.973037,
+    "lon": 25.85465
+  },
+  "crs": "EPSG:32735",
+  "aufloesung_m": 20.0,
+  "fenster": "15.12. des Vorjahres-15.03. (gemessener Gruenhoehepunkt dieses Ortes, s. saisonprobe)",
+  "jahre": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "methode": "Je Jahr die Abweichung jedes Bildpunkts vom Median des Kontrollrings (entfernt den Jahreseffekt, also den Regen). Darauf Theil-Sen-Steigung (Median aller paarweisen Steigungen, robust gegen einzelne Ausreisserjahre) und Mann-Kendall-Test (verteilungsfrei). Bildpunkte mit weniger als acht auswertbaren Jahren bleiben aussen vor.",
+  "alpha": 0.05,
+  "grenzen": [
+    "Zehn Jahreswerte sind wenig: Mann-Kendall verlangt bei n=10 ein |S| von mindestens 21 fuer p<0,05. Schwache echte Trends bleiben unerkannt — ein 'kein Trend' heisst hier 'nicht nachweisbar', nicht 'nicht vorhanden'.",
+    "Die Steigung sagt nicht, WARUM sich etwas veraendert.",
+    "Kein Test auf Bruchpunkte: eine Stufe in der Reihe erscheint hier als flacher Trend."
+  ],
+  "quellenvermerk": "Contains modified Copernicus Sentinel data 2026",
+  "kern": {
+    "median_steigung": 0.00335,
+    "punkte": 1966,
+    "signifikant_zunahme": 417,
+    "signifikant_abnahme": 90,
+    "anteil_mit_trend": 0.2579
+  },
+  "ring": {
+    "median_steigung": 0.00047,
+    "punkte": 12642,
+    "signifikant_zunahme": 1112,
+    "signifikant_abnahme": 762,
+    "anteil_mit_trend": 0.1482
+  },
+  "kern_dauerhaft_aermer": {
+    "median_steigung": 0.00247,
+    "punkte": 1039,
+    "signifikant_zunahme": 161,
+    "signifikant_abnahme": 83,
+    "anteil_mit_trend": 0.2348
+  },
+  "kern_unauffaellig": {
+    "median_steigung": 0.00417,
+    "punkte": 927,
+    "signifikant_zunahme": 256,
+    "signifikant_abnahme": 7,
+    "anteil_mit_trend": 0.2837
+  }
+}

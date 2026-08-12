@@ -1,0 +1,144 @@
+{
+  "erzeugt": "2026-08-12T16:16:26Z",
+  "aufruf": "python scripts/ndvi/punktauswertung.py --lat -23.973037 --lon 25.854650 --name botswana",
+  "punkt": {
+    "lat": -23.973037,
+    "lon": 25.85465
+  },
+  "kern_radius_m": 500.0,
+  "ring_m": [
+    800.0,
+    1500.0
+  ],
+  "bbox_crs84": [
+    25.837691212327233,
+    -23.988637412393512,
+    25.871608787672766,
+    -23.95743658760649
+  ],
+  "crs": "EPSG:32735",
+  "bbox_utm": [
+    381720.0,
+    7346540.0,
+    385220.0,
+    7350040.0
+  ],
+  "aufloesung_m": 20.0,
+  "fenster": "15.12. des Vorjahres-15.03. (gemessener Gruenhoehepunkt dieses Ortes, s. saisonprobe)",
+  "beobachtungen": {
+    "min": 5,
+    "median": 18.0,
+    "max": 26
+  },
+  "quelle": "Sentinel-2 L2A ueber Copernicus Data Space Ecosystem",
+  "quellenvermerk": "Contains modified Copernicus Sentinel data 2026",
+  "methode": "Median-NDVI im Kernkreis abzueglich Median-NDVI im Kontrollring. Der Ring traegt denselben Regen wie der Kern; die Differenz ist deshalb vom Wetter weitgehend unabhaengig. Sie sagt nichts ueber die Ursache.",
+  "reihe": [
+    {
+      "jahr": 2017,
+      "kern": 0.5029,
+      "ring": 0.551,
+      "differenz": -0.0481,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2018,
+      "kern": 0.3099,
+      "ring": 0.3306,
+      "differenz": -0.0207,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2019,
+      "kern": 0.3703,
+      "ring": 0.4024,
+      "differenz": -0.0321,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2020,
+      "kern": 0.4225,
+      "ring": 0.4849,
+      "differenz": -0.0624,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2021,
+      "kern": 0.4288,
+      "ring": 0.4703,
+      "differenz": -0.0415,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2022,
+      "kern": 0.4439,
+      "ring": 0.4865,
+      "differenz": -0.0426,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2023,
+      "kern": 0.428,
+      "ring": 0.4527,
+      "differenz": -0.0248,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2024,
+      "kern": 0.3227,
+      "ring": 0.3302,
+      "differenz": -0.0076,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2025,
+      "kern": 0.4465,
+      "ring": 0.4371,
+      "differenz": 0.0094,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    },
+    {
+      "jahr": 2026,
+      "kern": 0.5175,
+      "ring": 0.5598,
+      "differenz": -0.0423,
+      "pixel_kern": 1966,
+      "pixel_ring": 12642,
+      "anteil_gueltig": 1.0
+    }
+  ],
+  "differenz_mittel": -0.0313,
+  "differenz_spanne": [
+    -0.0624,
+    0.0094
+  ],
+  "differenz_streuung": 0.0199,
+  "vorzeichentest": {
+    "n": 10,
+    "negativ": 9,
+    "p": 0.02148
+  },
+  "trendtest": {
+    "steigung": 0.00301,
+    "p": 0.2089,
+    "runden": 20000
+  }
+}

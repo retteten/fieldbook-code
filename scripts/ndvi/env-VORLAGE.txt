@@ -1,0 +1,7 @@
+# Vorlage fuer scripts/ndvi/.env  (KOPIEREN, nicht umbenennen — die echte .env
+# ist gitignored und darf NIE committet werden)
+# CDSE-OAuth-Client: dataspace.copernicus.eu -> Sentinel Hub Dashboard -> User
+# settings -> OAuth clients. Das Secret wird nur EINMAL angezeigt; falls
+# verloren: neuen Client anlegen.
+CDSE_CLIENT_ID=sh-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+CDSE_CLIENT_SECRET=HIER_DAS_SECRET

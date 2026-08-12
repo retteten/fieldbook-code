@@ -1,0 +1,119 @@
+{
+  "_kommentar": "Zentrale AOI-Konfiguration des NDVI-Monitors. Gelesen von layer-explorer/ndvi.html, scripts/ndvi/ndvi_batch.py und php/ndvi-refresh.php. Neue AOI: Eintrag ergaenzen, Batch laufen lassen, fertig. bbox = [west, sued, ost, nord] in EPSG:4326 (CRS84). aufloesung_m steuert die Pixelzahl der Processing-API-Requests (max. 2500 px je Kante).",
+  "version": 2,
+  "saison": {
+    "_kommentar": "Jahres-Composites/Baseline: Peak-Season Jun-Aug (ISO-Wochen 23-35) — bewusst schmal, weil Saison-Requests mit der Orbitzahl skalieren (PU-Budget). Persistenz-Monate weiterhin Mai-Sep.",
+    "start_woche": 23,
+    "end_woche": 35,
+    "start_monat": 5,
+    "end_monat": 9,
+    "baseline_fenster_tage": 42,
+    "_kommentar_fenster": "Fensterlaenge der tagesgenau gematchten Klimatologie (Anomalie-Bezug). Bewusst laenger als die 14 Tage des aktuellen Composites: im Mittelgebirge lieferte ein 14-Tage-Fenster einzelne Baseline-Jahre mit nur einer Aufnahme (dunstanfaellig, systematisch zu niedrig). 42 Tage bleiben phaenologisch vergleichbar und liefern mehrere wolkenfreie Ueberflüge je Jahr.",
+    "baseline_jahre": [2020, 2021, 2022, 2023, 2024, 2025]
+  },
+  "klassifikation": {
+    "_kommentar": "Schwellen fuer Anomalie (NDVI-Differenz zur Baseline) und Persistenz (Monats-Composites ueber/unter Baseline).",
+    "anomalie_gruen": 0.1,
+    "anomalie_verlust": -0.1,
+    "persistenz_min_monate": 4,
+    "persistenz_fenster_monate": 6
+  },
+  "farbskala": {
+    "_kommentar": "Feste NDVI-Farbskala aller Composite-PNGs: linear interpolierte Stuetzstellen [ndvi, r, g, b]. Ausserhalb wird geklemmt, NoData ist transparent.",
+    "domaene": [-0.2, 0.9],
+    "stuetzstellen": [
+      [-0.2, 148, 114, 84],
+      [0.1, 214, 195, 138],
+      [0.3, 166, 190, 92],
+      [0.5, 74, 150, 64],
+      [0.7, 22, 104, 44],
+      [0.9, 4, 62, 28]
+    ]
+  },
+  "aois": [
+    {
+      "id": "oldenburg",
+      "name": "Oldenburg & Umland",
+      "beschreibung": "Stadt, Parks und Umland — Referenzflaeche im Nordwest-Extract der Basiskarte.",
+      "story": "Alltagsgruen im Wochentakt: Parks, Acker, Stadtrand.",
+      "bbox": [8.05, 53.05, 8.38, 53.24],
+      "aufloesung_m": 10,
+      "aufloesung_analyse_m": 20,
+      "basemap": "pmtiles",
+      "start_zoom": 12,
+      "dop": [
+        {
+          "name": "Landesluftbild DOP20 (NI)",
+          "wms_url": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dop_wms",
+          "layer": "ni_dop20",
+          "fmt": "image/jpeg",
+          "attribution": "© LGLN Niedersachsen · CC BY 4.0",
+          "lizenz": "CC BY 4.0",
+          "ab_zoom": 15
+        }
+      ]
+    },
+    {
+      "id": "jadeweserport",
+      "name": "JadeWeserPort / Wilhelmshaven",
+      "beschreibung": "Hafen- und Industrieausbau am Jadebusen — Vegetationsverlust durch Versiegelung, Ausgleichsflaechen im Umfeld.",
+      "story": "Industrie frisst Gruen — und wo entsteht es neu?",
+      "bbox": [8.02, 53.5, 8.24, 53.66],
+      "aufloesung_m": 10,
+      "aufloesung_analyse_m": 20,
+      "basemap": "topplus",
+      "start_zoom": 12,
+      "dop": [
+        {
+          "name": "Landesluftbild DOP20 (NI)",
+          "wms_url": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dop_wms",
+          "layer": "ni_dop20",
+          "fmt": "image/jpeg",
+          "attribution": "© LGLN Niedersachsen · CC BY 4.0",
+          "lizenz": "CC BY 4.0",
+          "ab_zoom": 15
+        }
+      ]
+    },
+    {
+      "id": "harz",
+      "name": "Oberharz",
+      "beschreibung": "Fichtensterben seit 2018 und beginnende Wiederbewaldung — Kahlflaechen, Naturverjuengung, Pioniervegetation.",
+      "story": "Erst braun, dann kahl — und jetzt wieder gruen?",
+      "bbox": [10.4, 51.7, 10.72, 51.86],
+      "aufloesung_m": 10,
+      "aufloesung_analyse_m": 20,
+      "basemap": "topplus",
+      "start_zoom": 12,
+      "dop": [
+        {
+          "name": "Landesluftbild DOP20 (NI-Teil)",
+          "wms_url": "https://opendata.lgln.niedersachsen.de/doorman/noauth/dop_wms",
+          "layer": "ni_dop20",
+          "fmt": "image/jpeg",
+          "attribution": "© LGLN Niedersachsen · CC BY 4.0",
+          "lizenz": "CC BY 4.0",
+          "ab_zoom": 15
+        },
+        {
+          "name": "Landesluftbild DOP20 (ST-Teil)",
+          "wms_url": "https://www.geodatenportal.sachsen-anhalt.de/wss/service/ST_LVermGeo_DOP_WMS_OpenData/guest",
+          "layer": "lsa_lvermgeo_dop20_2",
+          "fmt": "image/png",
+          "attribution": "© GeoBasis-DE / LVermGeo ST · dl-de/by-2-0",
+          "lizenz": "dl-de/by-2-0",
+          "ab_zoom": 15
+        }
+      ]
+    }
+  ],
+  "basemaps": {
+    "topplus": {
+      "name": "TopPlusOpen (BKG)",
+      "wms_url": "https://sgx.geodatenzentrum.de/wms_topplus_open",
+      "layer": "web_light",
+      "fmt": "image/jpeg",
+      "attribution": "© BKG · TopPlusOpen · dl-de/by-2-0"
+    }
+  }
+}

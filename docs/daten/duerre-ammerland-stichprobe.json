@@ -1,0 +1,260 @@
+{
+  "verfahren": "von Hand im DOP20 (20 cm) bestimmt, 09.08.2026",
+  "fenster_m": 60,
+  "duerrejahre": [
+    2018,
+    2022
+  ],
+  "normaljahre": [
+    2021,
+    2024,
+    2025
+  ],
+  "crs": "EPSG:32632",
+  "gruppen": {
+    "baumschule": {
+      "ndvi_normal": 0.5921,
+      "d_ndvi": -0.014,
+      "ndmi_normal": 0.1809,
+      "d_ndmi": -0.0468,
+      "n": 9
+    },
+    "gruenland": {
+      "ndvi_normal": 0.7755,
+      "d_ndvi": -0.0452,
+      "ndmi_normal": 0.2936,
+      "d_ndmi": -0.0351,
+      "n": 9
+    },
+    "wald": {
+      "ndvi_normal": 0.7687,
+      "d_ndvi": 0.0119,
+      "ndmi_normal": 0.3176,
+      "d_ndmi": -0.0106,
+      "n": 2
+    }
+  },
+  "punkte": [
+    {
+      "kennung": "A",
+      "klasse": "baumschule",
+      "lat": 53.1535,
+      "lon": 7.9889,
+      "beschreibung": "Edewecht Nordost, Reihenquartiere",
+      "ndvi_normal": 0.6484,
+      "d_ndvi": 0.0147,
+      "ndmi_normal": 0.2836,
+      "d_ndmi": -0.0105
+    },
+    {
+      "kennung": "C",
+      "klasse": "baumschule",
+      "lat": 53.1554,
+      "lon": 7.973,
+      "beschreibung": "Edewecht Nordwest, Quartiere am Weg",
+      "ndvi_normal": 0.6187,
+      "d_ndvi": -0.048,
+      "ndmi_normal": 0.1808,
+      "d_ndmi": -0.063
+    },
+    {
+      "kennung": "G",
+      "klasse": "baumschule",
+      "lat": 53.2215,
+      "lon": 7.893,
+      "beschreibung": "Ocholt West, Reihen und Wendestreifen",
+      "ndvi_normal": 0.5361,
+      "d_ndvi": 0.0129,
+      "ndmi_normal": 0.0755,
+      "d_ndmi": -0.0245
+    },
+    {
+      "kennung": "H",
+      "klasse": "baumschule",
+      "lat": 53.226,
+      "lon": 7.8975,
+      "beschreibung": "Ocholt Nord, Quartiere am Hof",
+      "ndvi_normal": 0.5334,
+      "d_ndvi": -0.0544,
+      "ndmi_normal": 0.1912,
+      "d_ndmi": -0.0554
+    },
+    {
+      "kennung": "O",
+      "klasse": "baumschule",
+      "lat": 53.248,
+      "lon": 7.935,
+      "beschreibung": "Westerstede, Gewaechshaeuser und Container",
+      "ndvi_normal": 0.6739,
+      "d_ndvi": -0.0972,
+      "ndmi_normal": 0.1809,
+      "d_ndmi": -0.126
+    },
+    {
+      "kennung": "U",
+      "klasse": "baumschule",
+      "lat": 53.211,
+      "lon": 7.8939,
+      "beschreibung": "Ocholt Sued, grosse Containerflaeche",
+      "ndvi_normal": 0.5921,
+      "d_ndvi": 0.0087,
+      "ndmi_normal": 0.324,
+      "d_ndmi": -0.0468
+    },
+    {
+      "kennung": "W",
+      "klasse": "baumschule",
+      "lat": 53.2311,
+      "lon": 7.9134,
+      "beschreibung": "Block mit farbigen Quartieren, Graben ringsum",
+      "ndvi_normal": 0.4821,
+      "d_ndvi": 0.0097,
+      "ndmi_normal": 0.2365,
+      "d_ndmi": -0.0453
+    },
+    {
+      "kennung": "X",
+      "klasse": "baumschule",
+      "lat": 53.1689,
+      "lon": 8.0105,
+      "beschreibung": "Folienhaeuser und Quartiere",
+      "ndvi_normal": 0.3673,
+      "d_ndvi": -0.1103,
+      "ndmi_normal": 0.1425,
+      "d_ndmi": -0.0662
+    },
+    {
+      "kennung": "Y",
+      "klasse": "baumschule",
+      "lat": 53.1854,
+      "lon": 7.9523,
+      "beschreibung": "Reihenquartier neben Acker",
+      "ndvi_normal": 0.6644,
+      "d_ndvi": -0.014,
+      "ndmi_normal": 0.1624,
+      "d_ndmi": 0.0251
+    },
+    {
+      "kennung": "B",
+      "klasse": "gruenland",
+      "lat": 53.1478,
+      "lon": 7.9896,
+      "beschreibung": "Weide am Teich",
+      "ndvi_normal": 0.7875,
+      "d_ndvi": 0.0453,
+      "ndmi_normal": 0.3378,
+      "d_ndmi": -0.014
+    },
+    {
+      "kennung": "F",
+      "klasse": "gruenland",
+      "lat": 53.243,
+      "lon": 7.921,
+      "beschreibung": "Weide am Hof",
+      "ndvi_normal": 0.6929,
+      "d_ndvi": -0.0078,
+      "ndmi_normal": 0.2529,
+      "d_ndmi": -0.0209
+    },
+    {
+      "kennung": "I",
+      "klasse": "gruenland",
+      "lat": 53.218,
+      "lon": 7.888,
+      "beschreibung": "Acker und Weide, Wallhecken",
+      "ndvi_normal": 0.7755,
+      "d_ndvi": -0.1112,
+      "ndmi_normal": 0.2936,
+      "d_ndmi": -0.1299
+    },
+    {
+      "kennung": "M",
+      "klasse": "gruenland",
+      "lat": 53.146,
+      "lon": 7.98,
+      "beschreibung": "lange Schlaege",
+      "ndvi_normal": 0.7171,
+      "d_ndvi": -0.0452,
+      "ndmi_normal": 0.2356,
+      "d_ndmi": -0.0903
+    },
+    {
+      "kennung": "N",
+      "klasse": "gruenland",
+      "lat": 53.152,
+      "lon": 7.966,
+      "beschreibung": "grosser einheitlicher Schlag",
+      "ndvi_normal": 0.7911,
+      "d_ndvi": -0.0261,
+      "ndmi_normal": 0.3637,
+      "d_ndmi": -0.0227
+    },
+    {
+      "kennung": "Q",
+      "klasse": "gruenland",
+      "lat": 53.23,
+      "lon": 7.915,
+      "beschreibung": "Weide mit Hecken",
+      "ndvi_normal": 0.8614,
+      "d_ndvi": -0.0466,
+      "ndmi_normal": 0.3476,
+      "d_ndmi": -0.0351
+    },
+    {
+      "kennung": "S",
+      "klasse": "gruenland",
+      "lat": 53.205,
+      "lon": 7.945,
+      "beschreibung": "Schlag am Graben",
+      "ndvi_normal": 0.6097,
+      "d_ndvi": 0.1087,
+      "ndmi_normal": 0.0769,
+      "d_ndmi": 0.1689
+    },
+    {
+      "kennung": "V",
+      "klasse": "gruenland",
+      "lat": 53.2231,
+      "lon": 7.9002,
+      "beschreibung": "Gruenland am Weg",
+      "ndvi_normal": 0.8194,
+      "d_ndvi": -0.1376,
+      "ndmi_normal": 0.3552,
+      "d_ndmi": -0.2154
+    },
+    {
+      "kennung": "Z",
+      "klasse": "gruenland",
+      "lat": 53.1577,
+      "lon": 7.9784,
+      "beschreibung": "Weide am Ortsrand",
+      "ndvi_normal": 0.738,
+      "d_ndvi": -0.099,
+      "ndmi_normal": 0.259,
+      "d_ndmi": -0.0834
+    },
+    {
+      "kennung": "P",
+      "klasse": "wald",
+      "lat": 53.238,
+      "lon": 7.942,
+      "beschreibung": "geschlossener Laubwald",
+      "ndvi_normal": 0.8479,
+      "d_ndvi": -0.0025,
+      "ndmi_normal": 0.3464,
+      "d_ndmi": -0.0338
+    },
+    {
+      "kennung": "K",
+      "klasse": "wald",
+      "lat": 53.212,
+      "lon": 7.896,
+      "beschreibung": "Waldrand",
+      "ndvi_normal": 0.6894,
+      "d_ndvi": 0.0263,
+      "ndmi_normal": 0.2889,
+      "d_ndmi": 0.0126
+    }
+  ],
+  "aufruf": "python scripts/ortstermin/duerre_stichprobe.py --json docs/daten/duerre-ammerland-stichprobe.json"
+}

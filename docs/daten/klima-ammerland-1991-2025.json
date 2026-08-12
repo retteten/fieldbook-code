@@ -1,0 +1,264 @@
+{
+  "quelle": "DWD CDC OpenData, Monatsraster 1 km (precipitation, evapo_p, soil_moist), CC BY 4.0",
+  "vermerk": "Datenbasis: Deutscher Wetterdienst, Rasterdaten bildlich wiedergegeben",
+  "abruf": "2026-08-09",
+  "bbox": [
+    7.87,
+    53.12,
+    8.13,
+    53.3
+  ],
+  "monate": [
+    6,
+    7,
+    8
+  ],
+  "median_kwb_mm": -42.1,
+  "sommer": [
+    {
+      "jahr": 1991,
+      "niederschlag_mm": 218.1,
+      "verdunstung_mm": 269.0,
+      "kwb_mm": -50.9,
+      "bodenfeuchte_prozent_nfk": 64.3
+    },
+    {
+      "jahr": 1992,
+      "niederschlag_mm": 189.4,
+      "verdunstung_mm": 301.6,
+      "kwb_mm": -112.2,
+      "bodenfeuchte_prozent_nfk": 58.9
+    },
+    {
+      "jahr": 1993,
+      "niederschlag_mm": 297.6,
+      "verdunstung_mm": 238.8,
+      "kwb_mm": 58.8,
+      "bodenfeuchte_prozent_nfk": 73.1
+    },
+    {
+      "jahr": 1994,
+      "niederschlag_mm": 187.3,
+      "verdunstung_mm": 306.6,
+      "kwb_mm": -119.2,
+      "bodenfeuchte_prozent_nfk": 61.4
+    },
+    {
+      "jahr": 1995,
+      "niederschlag_mm": 222.1,
+      "verdunstung_mm": 297.8,
+      "kwb_mm": -75.7,
+      "bodenfeuchte_prozent_nfk": 67.6
+    },
+    {
+      "jahr": 1996,
+      "niederschlag_mm": 229.4,
+      "verdunstung_mm": 256.1,
+      "kwb_mm": -26.7,
+      "bodenfeuchte_prozent_nfk": 53.8
+    },
+    {
+      "jahr": 1997,
+      "niederschlag_mm": 246.6,
+      "verdunstung_mm": 293.6,
+      "kwb_mm": -47.0,
+      "bodenfeuchte_prozent_nfk": 72.8
+    },
+    {
+      "jahr": 1998,
+      "niederschlag_mm": 362.7,
+      "verdunstung_mm": 246.2,
+      "kwb_mm": 116.4,
+      "bodenfeuchte_prozent_nfk": 88.5
+    },
+    {
+      "jahr": 1999,
+      "niederschlag_mm": 189.7,
+      "verdunstung_mm": 289.0,
+      "kwb_mm": -99.3,
+      "bodenfeuchte_prozent_nfk": 56.9
+    },
+    {
+      "jahr": 2000,
+      "niederschlag_mm": 261.9,
+      "verdunstung_mm": 240.3,
+      "kwb_mm": 21.6,
+      "bodenfeuchte_prozent_nfk": 66.8
+    },
+    {
+      "jahr": 2001,
+      "niederschlag_mm": 268.9,
+      "verdunstung_mm": 274.3,
+      "kwb_mm": -5.4,
+      "bodenfeuchte_prozent_nfk": 71.2
+    },
+    {
+      "jahr": 2002,
+      "niederschlag_mm": 287.3,
+      "verdunstung_mm": 265.9,
+      "kwb_mm": 21.4,
+      "bodenfeuchte_prozent_nfk": 82.8
+    },
+    {
+      "jahr": 2003,
+      "niederschlag_mm": 138.8,
+      "verdunstung_mm": 318.7,
+      "kwb_mm": -179.9,
+      "bodenfeuchte_prozent_nfk": 58.7
+    },
+    {
+      "jahr": 2004,
+      "niederschlag_mm": 287.4,
+      "verdunstung_mm": 264.9,
+      "kwb_mm": 22.5,
+      "bodenfeuchte_prozent_nfk": 75.6
+    },
+    {
+      "jahr": 2005,
+      "niederschlag_mm": 257.5,
+      "verdunstung_mm": 260.4,
+      "kwb_mm": -2.9,
+      "bodenfeuchte_prozent_nfk": 71.1
+    },
+    {
+      "jahr": 2006,
+      "niederschlag_mm": 274.4,
+      "verdunstung_mm": 308.4,
+      "kwb_mm": -33.9,
+      "bodenfeuchte_prozent_nfk": 66.2
+    },
+    {
+      "jahr": 2007,
+      "niederschlag_mm": 329.1,
+      "verdunstung_mm": 261.5,
+      "kwb_mm": 67.7,
+      "bodenfeuchte_prozent_nfk": 85.4
+    },
+    {
+      "jahr": 2008,
+      "niederschlag_mm": 291.6,
+      "verdunstung_mm": 287.5,
+      "kwb_mm": 4.1,
+      "bodenfeuchte_prozent_nfk": 74.3
+    },
+    {
+      "jahr": 2009,
+      "niederschlag_mm": 254.4,
+      "verdunstung_mm": 291.6,
+      "kwb_mm": -37.2,
+      "bodenfeuchte_prozent_nfk": 61.0
+    },
+    {
+      "jahr": 2010,
+      "niederschlag_mm": 238.6,
+      "verdunstung_mm": 305.8,
+      "kwb_mm": -67.3,
+      "bodenfeuchte_prozent_nfk": 59.3
+    },
+    {
+      "jahr": 2011,
+      "niederschlag_mm": 262.5,
+      "verdunstung_mm": 251.8,
+      "kwb_mm": 10.7,
+      "bodenfeuchte_prozent_nfk": 68.9
+    },
+    {
+      "jahr": 2012,
+      "niederschlag_mm": 221.5,
+      "verdunstung_mm": 276.4,
+      "kwb_mm": -54.9,
+      "bodenfeuchte_prozent_nfk": 66.9
+    },
+    {
+      "jahr": 2013,
+      "niederschlag_mm": 164.8,
+      "verdunstung_mm": 301.8,
+      "kwb_mm": -137.0,
+      "bodenfeuchte_prozent_nfk": 67.0
+    },
+    {
+      "jahr": 2014,
+      "niederschlag_mm": 215.2,
+      "verdunstung_mm": 308.4,
+      "kwb_mm": -93.2,
+      "bodenfeuchte_prozent_nfk": 68.9
+    },
+    {
+      "jahr": 2015,
+      "niederschlag_mm": 256.3,
+      "verdunstung_mm": 305.6,
+      "kwb_mm": -49.3,
+      "bodenfeuchte_prozent_nfk": 64.1
+    },
+    {
+      "jahr": 2016,
+      "niederschlag_mm": 240.6,
+      "verdunstung_mm": 282.7,
+      "kwb_mm": -42.1,
+      "bodenfeuchte_prozent_nfk": 75.6
+    },
+    {
+      "jahr": 2017,
+      "niederschlag_mm": 281.0,
+      "verdunstung_mm": 292.5,
+      "kwb_mm": -11.5,
+      "bodenfeuchte_prozent_nfk": 70.4
+    },
+    {
+      "jahr": 2018,
+      "niederschlag_mm": 120.9,
+      "verdunstung_mm": 357.7,
+      "kwb_mm": -236.7,
+      "bodenfeuchte_prozent_nfk": 50.6
+    },
+    {
+      "jahr": 2019,
+      "niederschlag_mm": 157.1,
+      "verdunstung_mm": 342.8,
+      "kwb_mm": -185.6,
+      "bodenfeuchte_prozent_nfk": 51.2
+    },
+    {
+      "jahr": 2020,
+      "niederschlag_mm": 266.5,
+      "verdunstung_mm": 325.3,
+      "kwb_mm": -58.8,
+      "bodenfeuchte_prozent_nfk": 55.0
+    },
+    {
+      "jahr": 2021,
+      "niederschlag_mm": 275.9,
+      "verdunstung_mm": 292.2,
+      "kwb_mm": -16.2,
+      "bodenfeuchte_prozent_nfk": 72.0
+    },
+    {
+      "jahr": 2022,
+      "niederschlag_mm": 125.9,
+      "verdunstung_mm": 343.1,
+      "kwb_mm": -217.3,
+      "bodenfeuchte_prozent_nfk": 50.8
+    },
+    {
+      "jahr": 2023,
+      "niederschlag_mm": 310.4,
+      "verdunstung_mm": 331.6,
+      "kwb_mm": -21.2,
+      "bodenfeuchte_prozent_nfk": 72.0
+    },
+    {
+      "jahr": 2024,
+      "niederschlag_mm": 281.0,
+      "verdunstung_mm": 305.8,
+      "kwb_mm": -24.8,
+      "bodenfeuchte_prozent_nfk": 79.0
+    },
+    {
+      "jahr": 2025,
+      "niederschlag_mm": 224.9,
+      "verdunstung_mm": 314.9,
+      "kwb_mm": -90.0,
+      "bodenfeuchte_prozent_nfk": 59.1
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "erzeugt": "2026-08-12T16:17:32Z",
+  "punkt": {
+    "lat": -23.973037,
+    "lon": 25.85465
+  },
+  "aufruf": "python scripts/ndvi/saisonprobe.py --lat -23.973037 --lon 25.854650 --name botswana --zyklen 2022 2024 2026",
+  "crs": "EPSG:32735",
+  "aufloesung_m": 20.0,
+  "zyklen": [
+    2022,
+    2024,
+    2026
+  ],
+  "monate": [
+    {
+      "monat": "Jul",
+      "index": 0,
+      "werte": {
+        "2022": {
+          "kern": 0.2146,
+          "ring": 0.2244,
+          "beobachtungen": 12.0,
+          "von": "2021-07-01",
+          "bis": "2021-07-31"
+        },
+        "2024": {
+          "kern": 0.2047,
+          "ring": 0.2043,
+          "beobachtungen": 12.0,
+          "von": "2023-07-01",
+          "bis": "2023-07-31"
+        },
+        "2026": {
+          "kern": 0.2996,
+          "ring": 0.3287,
+          "beobachtungen": 9.0,
+          "von": "2025-07-01",
+          "bis": "2025-07-31"
+        }
+      }
+    },
+    {
+      "monat": "Aug",
+      "index": 1,
+      "werte": {
+        "2022": {
+          "kern": 0.1926,
+          "ring": 0.2019,
+          "beobachtungen": 9.0,
+          "von": "2021-08-01",
+          "bis": "2021-08-31"
+        },
+        "2024": {
+          "kern": 0.1868,
+          "ring": 0.1885,
+          "beobachtungen": 12.0,
+          "von": "2023-08-01",
+          "bis": "2023-08-31"
+        },
+        "2026": {
+          "kern": 0.2658,
+          "ring": 0.2775,
+          "beobachtungen": 14.0,
+          "von": "2025-08-01",
+          "bis": "2025-08-31"
+        }
+      }
+    },
+    {
+      "monat": "Sep",
+      "index": 2,
+      "werte": {
+        "2022": {
+          "kern": 0.1776,
+          "ring": 0.1871,
+          "beobachtungen": 12.0,
+          "von": "2021-09-01",
+          "bis": "2021-09-30"
+        },
+        "2024": {
+          "kern": 0.1749,
+          "ring": 0.1766,
+          "beobachtungen": 10.0,
+          "von": "2023-09-01",
+          "bis": "2023-09-30"
+        },
+        "2026": {
+          "kern": 0.2598,
+          "ring": 0.2577,
+          "beobachtungen": 9.0,
+          "von": "2025-09-01",
+          "bis": "2025-09-30"
+        }
+      }
+    },
+    {
+      "monat": "Okt",
+      "index": 3,
+      "werte": {
+        "2022": {
+          "kern": 0.1666,
+          "ring": 0.1789,
+          "beobachtungen": 10.0,
+          "von": "2021-10-01",
+          "bis": "2021-10-31"
+        },
+        "2024": {
+          "kern": 0.1681,
+          "ring": 0.1695,
+          "beobachtungen": 10.0,
+          "von": "2023-10-01",
+          "bis": "2023-10-31"
+        },
+        "2026": {
+          "kern": 0.3151,
+          "ring": 0.2957,
+          "beobachtungen": 11.0,
+          "von": "2025-10-01",
+          "bis": "2025-10-31"
+        }
+      }
+    },
+    {
+      "monat": "Nov",
+      "index": 4,
+      "werte": {
+        "2022": {
+          "kern": 0.1841,
+          "ring": 0.1963,
+          "beobachtungen": 8.0,
+          "von": "2021-11-01",
+          "bis": "2021-11-30"
+        },
+        "2024": {
+          "kern": 0.2125,
+          "ring": 0.2035,
+          "beobachtungen": 8.0,
+          "von": "2023-11-01",
+          "bis": "2023-11-30"
+        },
+        "2026": {
+          "kern": 0.414,
+          "ring": 0.4487,
+          "beobachtungen": 5.0,
+          "von": "2025-11-01",
+          "bis": "2025-11-30"
+        }
+      }
+    },
+    {
+      "monat": "Dez",
+      "index": 5,
+      "werte": {
+        "2022": {
+          "kern": 0.3544,
+          "ring": 0.4051,
+          "beobachtungen": 6.0,
+          "von": "2021-12-01",
+          "bis": "2021-12-31"
+        },
+        "2024": {
+          "kern": 0.2787,
+          "ring": 0.284,
+          "beobachtungen": 5.0,
+          "von": "2023-12-01",
+          "bis": "2023-12-31"
+        },
+        "2026": {
+          "kern": 0.509,
+          "ring": 0.5467,
+          "beobachtungen": 3.0,
+          "von": "2025-12-01",
+          "bis": "2025-12-31"
+        }
+      }
+    },
+    {
+      "monat": "Jan",
+      "index": 6,
+      "werte": {
+        "2022": {
+          "kern": 0.4697,
+          "ring": 0.5163,
+          "beobachtungen": 5.0,
+          "von": "2022-01-01",
+          "bis": "2022-01-31"
+        },
+        "2024": {
+          "kern": 0.3256,
+          "ring": 0.3408,
+          "beobachtungen": 5.0,
+          "von": "2024-01-01",
+          "bis": "2024-01-31"
+        },
+        "2026": {
+          "kern": 0.5319,
+          "ring": 0.575,
+          "beobachtungen": 9.0,
+          "von": "2026-01-01",
+          "bis": "2026-01-31"
+        }
+      }
+    },
+    {
+      "monat": "Feb",
+      "index": 7,
+      "werte": {
+        "2022": {
+          "kern": 0.4482,
+          "ring": 0.4947,
+          "beobachtungen": 9.0,
+          "von": "2022-02-01",
+          "bis": "2022-02-28"
+        },
+        "2024": {
+          "kern": 0.3314,
+          "ring": 0.3364,
+          "beobachtungen": 11.0,
+          "von": "2024-02-01",
+          "bis": "2024-02-29"
+        },
+        "2026": {
+          "kern": 0.4732,
+          "ring": 0.516,
+          "beobachtungen": 6.0,
+          "von": "2026-02-01",
+          "bis": "2026-02-28"
+        }
+      }
+    },
+    {
+      "monat": "Mär",
+      "index": 8,
+      "werte": {
+        "2022": {
+          "kern": 0.4075,
+          "ring": 0.4562,
+          "beobachtungen": 3.0,
+          "von": "2022-03-01",
+          "bis": "2022-03-31"
+        },
+        "2024": {
+          "kern": 0.3018,
+          "ring": 0.3111,
+          "beobachtungen": 11.0,
+          "von": "2024-03-01",
+          "bis": "2024-03-31"
+        },
+        "2026": {
+          "kern": 0.4462,
+          "ring": 0.5066,
+          "beobachtungen": 4.0,
+          "von": "2026-03-01",
+          "bis": "2026-03-31"
+        }
+      }
+    },
+    {
+      "monat": "Apr",
+      "index": 9,
+      "werte": {
+        "2022": {
+          "kern": 0.3637,
+          "ring": 0.4009,
+          "beobachtungen": 7.0,
+          "von": "2022-04-01",
+          "bis": "2022-04-30"
+        },
+        "2024": {
+          "kern": 0.3243,
+          "ring": 0.3225,
+          "beobachtungen": 10.0,
+          "von": "2024-04-01",
+          "bis": "2024-04-30"
+        },
+        "2026": {
+          "kern": 0.425,
+          "ring": 0.4801,
+          "beobachtungen": 7.0,
+          "von": "2026-04-01",
+          "bis": "2026-04-30"
+        }
+      }
+    },
+    {
+      "monat": "Mai",
+      "index": 10,
+      "werte": {
+        "2022": {
+          "kern": 0.3512,
+          "ring": 0.3897,
+          "beobachtungen": 11.0,
+          "von": "2022-05-01",
+          "bis": "2022-05-31"
+        },
+        "2024": {
+          "kern": 0.3406,
+          "ring": 0.3504,
+          "beobachtungen": 13.0,
+          "von": "2024-05-01",
+          "bis": "2024-05-31"
+        },
+        "2026": {
+          "kern": 0.3705,
+          "ring": 0.4146,
+          "beobachtungen": 13.0,
+          "von": "2026-05-01",
+          "bis": "2026-05-31"
+        }
+      }
+    },
+    {
+      "monat": "Jun",
+      "index": 11,
+      "werte": {
+        "2022": {
+          "kern": 0.288,
+          "ring": 0.3166,
+          "beobachtungen": 9.0,
+          "von": "2022-06-01",
+          "bis": "2022-06-30"
+        },
+        "2024": {
+          "kern": 0.2964,
+          "ring": 0.3018,
+          "beobachtungen": 11.0,
+          "von": "2024-06-01",
+          "bis": "2024-06-30"
+        },
+        "2026": {
+          "kern": 0.3167,
+          "ring": 0.3396,
+          "beobachtungen": 12.0,
+          "von": "2026-06-01",
+          "bis": "2026-06-30"
+        }
+      }
+    }
+  ],
+  "quellenvermerk": "Contains modified Copernicus Sentinel data 2026",
+  "zyklus_2022": {
+    "gipfel_monat": "Jan",
+    "gipfel_ndvi": 0.4697,
+    "tal_monat": "Okt",
+    "tal_ndvi": 0.1666,
+    "amplitude": 0.3031,
+    "fenster_feb_apr_anteil": 0.791
+  },
+  "zyklus_2024": {
+    "gipfel_monat": "Mai",
+    "gipfel_ndvi": 0.3406,
+    "tal_monat": "Okt",
+    "tal_ndvi": 0.1681,
+    "amplitude": 0.1725,
+    "fenster_feb_apr_anteil": 0.876
+  },
+  "zyklus_2026": {
+    "gipfel_monat": "Jan",
+    "gipfel_ndvi": 0.5319,
+    "tal_monat": "Sep",
+    "tal_ndvi": 0.2598,
+    "amplitude": 0.2721,
+    "fenster_feb_apr_anteil": 0.692
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "aoi": "oldenburg",
+  "gitter_m": 20.0,
+  "crs": "EPSG:32632",
+  "aufruf": "python scripts/ortstermin/skalenprobe.py --aoi oldenburg --bbox 8.155,53.105,8.285,53.185 --json docs/daten/skalenprobe-oldenburg-2026-W33.json",
+  "annahmen": {
+    "delta_ndvi": 0.55,
+    "schwelle": 0.1,
+    "min_zellen": 4,
+    "stadtmaske": {
+      "radius_m": 250.0,
+      "schwelle": 0.55
+    }
+  },
+  "rauschboden": {
+    "n_pixel": 72403,
+    "median": -0.0015,
+    "sigma_robust": 0.0366,
+    "p05": -0.1011,
+    "p95": 0.0788,
+    "schwelle_in_sigma": 2.73
+  },
+  "verduennung": [
+    {
+      "gitter_m": 10,
+      "zellflaeche_m2": 100,
+      "min_objekt_1zelle_m2": 18,
+      "min_objekt_nzellen_m2": 73,
+      "entspricht_kronen": 0.9
+    },
+    {
+      "gitter_m": 20,
+      "zellflaeche_m2": 400,
+      "min_objekt_1zelle_m2": 73,
+      "min_objekt_nzellen_m2": 291,
+      "entspricht_kronen": 3.7
+    },
+    {
+      "gitter_m": 30,
+      "zellflaeche_m2": 900,
+      "min_objekt_1zelle_m2": 164,
+      "min_objekt_nzellen_m2": 655,
+      "entspricht_kronen": 8.3
+    },
+    {
+      "gitter_m": 60,
+      "zellflaeche_m2": 3600,
+      "min_objekt_1zelle_m2": 655,
+      "min_objekt_nzellen_m2": 2618,
+      "entspricht_kronen": 33.4
+    },
+    {
+      "gitter_m": 100,
+      "zellflaeche_m2": 10000,
+      "min_objekt_1zelle_m2": 1818,
+      "min_objekt_nzellen_m2": 7273,
+      "entspricht_kronen": 92.6
+    },
+    {
+      "gitter_m": 1000,
+      "zellflaeche_m2": 1000000,
+      "min_objekt_1zelle_m2": 181818,
+      "min_objekt_nzellen_m2": 727273,
+      "entspricht_kronen": 9264.6
+    }
+  ],
+  "vergroeberung": [
+    {
+      "gitter_m": 20,
+      "zellen_im_gebiet": 73541,
+      "anteil_verlust": 0.0573,
+      "cluster_ab_min": 241,
+      "flaeche_je_cluster_m2": 1600
+    },
+    {
+      "gitter_m": 40,
+      "zellen_im_gebiet": 19288,
+      "anteil_verlust": 0.0451,
+      "cluster_ab_min": 47,
+      "flaeche_je_cluster_m2": 6400
+    },
+    {
+      "gitter_m": 60,
+      "zellen_im_gebiet": 8969,
+      "anteil_verlust": 0.0363,
+      "cluster_ab_min": 18,
+      "flaeche_je_cluster_m2": 14400
+    },
+    {
+      "gitter_m": 100,
+      "zellen_im_gebiet": 3479,
+      "anteil_verlust": 0.0287,
+      "cluster_ab_min": 4,
+      "flaeche_je_cluster_m2": 40000
+    },
+    {
+      "gitter_m": 200,
+      "zellen_im_gebiet": 1037,
+      "anteil_verlust": 0.0241,
+      "cluster_ab_min": 2,
+      "flaeche_je_cluster_m2": 160000
+    }
+  ]
+}
