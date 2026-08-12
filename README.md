@@ -1,4 +1,13 @@
-# Feldbuch-Rechnungen
+# fieldbook-code
+
+> **English:** Analysis scripts and result data behind the *Feldbuch* (field book),
+> a German-language remote-sensing blog at
+> [geophora.de/blog](https://www.geophora.de/blog/). Every published figure carries
+> a "Kartenpass" (map passport) naming the exact script call that produced it —
+> reproducible from this repository. Code and docs are in German, matching the
+> blog's audience; the methods (Sentinel-2 median composites, metric UTM grid,
+> Theil–Sen slopes with Mann–Kendall tests) are explained at
+> [geophora.de/blog/methodik](https://www.geophora.de/blog/methodik/).
 
 Versionierte Belege zum **Feldbuch** auf [geophora.de/blog/](https://www.geophora.de/blog/):
 die Auswerteskripte und Datendateien hinter jeder veröffentlichten Zahl. Jede Folge
