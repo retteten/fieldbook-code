@@ -98,15 +98,26 @@ def ndvi_farben(a: np.ndarray) -> np.ndarray:
                     axis=-1).astype("uint8")
 
 
+RAUSCHKERN = 0.10  # Anteil der Spanne um die Null, der Papier bleibt
+FARBGAMMA = 1.2    # >1: der Verlauf setzt nach dem Kern sanft statt sofort ein
+
+
 def anomalie_farben(d: np.ndarray, spanne: float) -> np.ndarray:
-    """Divergierend in den Hausfarben: Rückgang bernstein, Zugewinn grün."""
+    """Divergierend in den Hausfarben: Rückgang bernstein, Zugewinn grün.
+
+    Seit 13.08.2026 mit Rauschkern (Roberts Anmerkung: winzige Steigungen
+    wirkten schon leicht grün, wo das keinen Sinn ergibt): Werte unter
+    RAUSCHKERN·Spanne bleiben ungefärbt — bei der Trendkarte (--spanne 0.05)
+    also ±0,005/Jahr —, danach steigt der Verlauf leicht progressiv an.
+    Der Kern gehört als Satz in die Legende der Folge (Rezeptur § 3)."""
     t = np.clip(np.nan_to_num(d, nan=0.0) / spanne, -1, 1)
+    staerke = np.clip((np.abs(t) - RAUSCHKERN) / (1 - RAUSCHKERN), 0, 1) ** FARBGAMMA
     aus = np.zeros(d.shape + (3,), dtype="float64")
     for k in range(3):
         aus[..., k] = np.where(
             t < 0,
-            PAPIER[k] + (BERNSTEIN[k] - PAPIER[k]) * (-t),
-            PAPIER[k] + (GRUEN[k] - PAPIER[k]) * t)
+            PAPIER[k] + (BERNSTEIN[k] - PAPIER[k]) * staerke,
+            PAPIER[k] + (GRUEN[k] - PAPIER[k]) * staerke)
     return aus.astype("uint8")
 
 
